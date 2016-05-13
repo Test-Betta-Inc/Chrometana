@@ -8,13 +8,27 @@ Chrometana
 
 [Link to the Chrometana blog](http://Chrometana.Theo.li)
 
+BROKEN UNTIL FURTHER NOTICE
+------------
+[Recent changes](https://blogs.windows.com/windowsexperience/2016/04/28/delivering-personalized-search-experiences-in-windows-10-through-cortana/) to Windows 10 prevent Cortana from opening any browser other than Edge. Due to such, Chrometana will not be able to work.
+
+[Blog post here if you would like to read more: http://chrometana.theo.li/2016/04/cortana-browser-choice-revoked-windows/](http://chrometana.theo.li/2016/04/cortana-browser-choice-revoked-windows/)
+
 INTRODUCTION
 ------------
 With the introduction of Windows 10 to the general public, Bing use is growing rampant. Many aren't using Bing by choice, especially Cortana users. Chrometana aims to force all Bing searches made in Chrome to be redirected to a search engine of the user's choice
 
 VERSION
 ------------
-###v1.2.0 beta
+###v2.0.0 beta 2
+#####New features
+ - Ability to choose between "all searches" and "only Cortana searches" for redirection
+ - UI overhaul complete
+
+####Bug fixes
+ - CSS bug causing buttons to disappear fixed by [kyleladd](https://github.com/kyleladd)
+
+###v2.0.0 beta 1
 #####New Features
  - Added "Go to (website)" functionality, you can now tell Cortana to go to any website you want by [Claire Pitman](https://github.com/ClairePitman)
  - UI overhaul by [Maayan Kline](https://github.com/mok8) and [Courtney Tambling](http://courtneytambling.com/)
@@ -24,6 +38,10 @@ VERSION
 #####Development
  - TravisCI implemented (obviously by [kyleladd](https://github.com/kyleladd))
  - JSHint added as the preferred linter
+
+#####Known Issues
+ - "Go To (website)" toggle is broken, always on
+ - Clearing the "Custom Search Engine" field can be annoying at best
 
 ###v1.1.2
 #####Bug Fixes/Improvements
